@@ -25,3 +25,6 @@ jobs:
 
         - name: "list directory"
           run: ls 
+        
+        - name: :"run lint"
+          run: npm run lint
